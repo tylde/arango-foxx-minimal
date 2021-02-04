@@ -1,0 +1,14 @@
+{
+  "name": "arango-foxx-minimal",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/tylde/arango-foxx-minimal.git",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "foxx-cli": "2.0.0"
+  },
+  "scripts": {
+    "install": "foxx install /minimal ./ -H http://localhost:7001 -D _system --verbose"
+  }
+}

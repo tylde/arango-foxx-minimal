@@ -1,0 +1,4 @@
+*.zip
+.idea
+yarn.lock
+node_modules
